@@ -147,8 +147,9 @@ main{
     background-size: cover;
     border-radius: 20px;
     margin: 30px auto 0 auto;
-   transition: transform 0.3s ease-in-out;
+   transition: transform 0.8s ease-in-out;
    overflow: hidden;
+   box-shadow: 10px 10px 10px gray;
 
 
    
@@ -157,7 +158,7 @@ main{
 .brazil-team>h1{
  visibility: hidden;
  color: darkblue;
- transition: transform 2s ease-in-out  ;
+ transition: transform 4s ease-in-out  ;
 
 }
 

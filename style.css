@@ -136,14 +136,68 @@ main{
 }
 /* Extra part */
 
+
+.brazil-team{
+    width: 80%;
+    background-image: url(images/brazil.jpg);
+    padding: 20px 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 30px auto 0 auto;
+   transition: transform 0.3s ease-in-out;
+   overflow: hidden;
+
+
+   
+}
+
+.brazil-team>h1{
+ visibility: hidden;
+ color: darkblue;
+ transition: transform 2s ease-in-out  ;
+
+}
+
+
+.brazil-team:hover{
+opacity: 0.8;
+transform: scale(1.05);
+
+}
+
+.brazil-team:hover h1{
+    visibility: visible;
+    transform: translate(100%);
+    
+
+}
+
+/* extra services part */
+
+
 .about{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
     width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: center;
+    padding-top: 20px;
+    
 }
+
+.about>div>a{text-decoration: none;
+    font-weight: 500;
+    color: black;
+
+}
+.about>div>a:hover{
+    color: tomato;
+}
+
 
 
 /* -----------------footer----------------  */
@@ -175,7 +229,7 @@ footer{
 
 
 
-
+/* media query for responsive  */
 
 
 
@@ -201,6 +255,12 @@ nav{
     width: auto;
     
     
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 }
 
